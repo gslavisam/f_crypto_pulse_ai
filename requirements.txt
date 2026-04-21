@@ -1,0 +1,9 @@
+flet
+fastapi
+uvicorn[standard]
+aiohttp
+sqlalchemy
+openai
+python-dotenv
+pydantic
+yfinance
