@@ -1,4 +1,4 @@
-﻿# Crypto Pulse AI
+﻿# Market Pulse AI
 
 Multi-asset quantitative analytics platform — decoupled desktop client (Flet) + REST backend (FastAPI).
 Supports **4 instrument classes**: crypto, stocks, indices, commodities.
