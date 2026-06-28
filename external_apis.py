@@ -887,7 +887,7 @@ class AIServiceProvider:
                     api_kwargs["extra_body"] = {"reasoning": {"enabled": True}}
                 
                 # Izvršavamo asinhroni poziv
-                response = await client.chat.completions.create(**api_kwargs)
+                    response = await client.chat.completions.create(**api_kwargs)
                 raw_content = response.choices[0].message.content
                 
                 # Ispisujemo tok misli modela u terminal (ako postoji)
